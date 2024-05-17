@@ -1,10 +1,8 @@
 fun main() {
-    // Example side lengths
     val side1 = 5
     val side2 = 5
     val side3 = 5
 
-    // Determine the type of triangle
     val triangleType = determineTriangleType(side1, side2, side3)
     println("The triangle with sides $side1, $side2, and $side3 is $triangleType.")
 }
